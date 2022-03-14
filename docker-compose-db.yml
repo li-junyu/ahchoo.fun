@@ -1,0 +1,9 @@
+services:
+  rabbitmq:
+    image: rabbitmq:3.9.13-alpine
+  postgresql:
+    image:  postgres:14.2-bullseye
+  mongodb:
+    image:  mongo:5.0.6-focal
+  redis:
+    image: redis:6.2.6-bullseye
